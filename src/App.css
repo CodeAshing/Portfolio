@@ -1,0 +1,129 @@
+.Header-color{
+    background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Landing-grid{
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+
+}
+.aboutme-cell{ 
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 10px;
+    margin: center;
+    text-align: center;    
+    color: white;
+    font-family: 'anton',sans-serif;
+    font-size: xx-large;
+    line-height: 50px;
+
+
+
+}
+
+.resumeRightCol{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+}
+
+
+.Avatar-img{
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .1);    
+    border-radius: 100%;
+    height: 250px;
+    padding-top: 5em;
+    padding: .25rem;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.banner-text{
+    background-color: black;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    opacity: .8;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+
+}
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+.contact-body{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center ;
+    padding-top: 2em;
+    position: fixed;
+    
+}
+.contact-grid{
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.project-grid{
+    display: flex;
+}
+
+.contact-grid h2{
+    font-family: 'anton',sans-serif;
+}
+.contact-grid p{
+    font-family: 'oxygon',sans-serif;
+    font-weight: bold;
+}
+.contact-grid hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list i{
+    font-size:  66px;
+    padding-right: 5rem;
+}
